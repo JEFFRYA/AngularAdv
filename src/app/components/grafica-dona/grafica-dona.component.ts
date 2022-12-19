@@ -27,9 +27,6 @@ export class GraficaDonaComponent implements OnInit {
 
   ngOnInit() {
 
-    console.log(this.labels);
-    console.log(this.data);
-
     this.doughnutChartLabels = this.labels;
     this.doughnutChartData = {
       labels: this.doughnutChartLabels,
@@ -40,9 +37,6 @@ export class GraficaDonaComponent implements OnInit {
         }
       ]
     };
-
-    console.log(this.doughnutChartLabels);
-    console.log(this.doughnutChartData);
-
+    
   }
 }
