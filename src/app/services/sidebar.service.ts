@@ -10,14 +10,18 @@ export class SidebarService {
       titulo: 'Modulos',
       icono: 'mdi mdi-gauge',
       submenu: [
-        { titulo: 'Inicio', url: '/', },
-        { titulo: 'Ventas', url: '/', },
         { titulo: 'Clientes', url: '/', },
+        { titulo: 'Graficas', url: 'grafica1', },
+        { titulo: 'Inicio', url: '/', },
         { titulo: 'Inventario', url: '/', },
+        { titulo: 'Promesas', url: 'promise', },
         { titulo: 'Reportes', url: '/', },
-        { titulo: 'Graficas', url: 'grafica1', }
+        { titulo: 'Rxjs', url: 'rxjs', },
+        { titulo: 'Ventas', url: '/', },
       ]
     }
   ];
+
   constructor() { }
+  
 }
